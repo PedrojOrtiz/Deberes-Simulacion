@@ -9,7 +9,7 @@
 <tag k='entradasalida' v='0,0,0,,0,0,0' />
 </node>
 <node id='4' lat='8.357221165773013E-5' lon='1.3637817884149005E-4' >
-<tag k='highway' v='mini_roundabout' />
+<tag k='highway' v='bridge' />
 <tag k='entradasalida' v='0,0,0,,0,0,0' />
 </node>
 <node id='5' lat='5.443487299868367E-4' lon='1.3413459048141162E-4' >
@@ -17,7 +17,7 @@
 <tag k='entradasalida' v='0,0,0,,0,0,0' />
 </node>
 <node id='6' lat='-2.6426888551228173E-4' lon='1.3637817884149005E-4' >
-<tag k='nombre' v='' />
+<tag k='highway' v='stadium' />
 <tag k='entradasalida' v='0,0,0,,0,0,0' />
 </node>
 <node id='7' lat='-4.901397278304712E-4' lon='1.3637817884149005E-4' >
@@ -41,21 +41,21 @@
 <segment id='4' from='5' to='4'>
 <tag k='nCarrilesIda' v='1' />
 <tag k='nCarrilesVuelta' v='1' />
-<tag k='velMax' v='90.0' />
+<tag k='velMax' v='60.0' />
 </segment>
 <segment id='5' from='4' to='6'>
 <tag k='nCarrilesIda' v='1' />
 <tag k='nCarrilesVuelta' v='1' />
-<tag k='velMax' v='90.0' />
+<tag k='velMax' v='60.0' />
 </segment>
 <segment id='6' from='6' to='8'>
 <tag k='nCarrilesIda' v='1' />
 <tag k='nCarrilesVuelta' v='1' />
-<tag k='velMax' v='90.0' />
+<tag k='velMax' v='50.0' />
 </segment>
 <segment id='7' from='6' to='7'>
 <tag k='nCarrilesIda' v='1' />
 <tag k='nCarrilesVuelta' v='1' />
-<tag k='velMax' v='90.0' />
+<tag k='velMax' v='60.0' />
 </segment>
 </osm>
